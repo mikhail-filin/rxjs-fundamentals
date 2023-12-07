@@ -14,7 +14,6 @@ const addMessageToDOM = () => {
   notificationMessages.appendChild(notification);
 };
 
-button.addEventListener('click', () => null);
 const observable$ = fromEvent(button, 'click');
 observable$.subscribe(addMessageToDOM);
 
