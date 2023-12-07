@@ -7,5 +7,3 @@ export const pauseButton = document.getElementById('pause');
 export const setCount = (value) => {
   count.innerText = value;
 };
-
-export const getCount = () => Number(count.innerText);
